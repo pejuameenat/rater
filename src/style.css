@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap');
+
+:root {
+    --margin: 1rem auto;
+    --ornge: #fb7413;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121417;
+}
+
+.container {
+    max-width: 1000px;
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card {
+    background: #252d37;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.star {
+    width: 40px;
+}
+
+.card h1,
+p {
+    color: var(--white);
+}
+
+.buttons {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #7c8798;
+    border: 0;
+    color: var(--white);
+}
+
+/* .buttons button:hover {
+    background: var(--ornge);
+} */
+
+#submit {
+    width: 100%;
+    display: block;
+    margin: var(--margin);
+    padding: .8rem;
+    border-radius: 25px;
+    color: var(--ornge);
+    font-weight: 600;
+    border: 0;
+    text-transform: uppercase;
+    transition: 400ms ease-in;
+}
+
+#submit:hover {
+    background-color: var(--ornge);
+    color: var(--white);
+}
+
+.center {
+    text-align: center;
+    color: var(--white);
+    padding: .5rem;
+}
+
+.full-width {
+    display: block;
+    width: 42%;
+    margin: 1rem auto;
+}
+
+.card h4 {
+    text-align: center;
+    color: var(--ornge);
+    padding: .4rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+/* js class */
+.hide {
+    display: none;
+}
+
+.active {
+    background-color: var(--ornge);
+}
+
+#card span {
+    font-size: 20px;
+    float: right;
+    cursor: default;
+    color: var(--white);
+}
