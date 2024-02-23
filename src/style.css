@@ -57,11 +57,13 @@ p {
     background-color: #7c8798;
     border: 0;
     color: var(--white);
+    transition: all 400ms ease-in;
 }
 
-/* .buttons button:hover {
+.buttons button:hover {
     background: var(--ornge);
-} */
+    transform: scale(.9);
+}
 
 #submit {
     width: 100%;
