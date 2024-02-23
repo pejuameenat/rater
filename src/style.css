@@ -112,9 +112,17 @@ p {
     background-color: var(--ornge);
 }
 
-#card span {
+#card  button{
     font-size: 20px;
     float: right;
     cursor: default;
     color: var(--white);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+#card button:hover{
+    outline:1px solid var(--white);
 }
